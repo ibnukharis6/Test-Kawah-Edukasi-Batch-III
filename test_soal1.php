@@ -8,7 +8,7 @@ for ($i = 0; $i < count($data); $i++) {
 
 function fizzbuzz($data)
 {
-    if ($data == 5 && $data == 11) {
+    if ($data == 11 && $data == 5) {
         echo "FizzBuzz - $data - $data" . PHP_EOL;
     }
     if ($data == 5) {
